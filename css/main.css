@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body>div{
+    width: 20rem;
+    height:10rem;
+    background-color: gainsboro;
+    border: .0625rem solid cornflowerblue;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+#core{
+    width: 11rem;
+    margin: 1rem auto 0;
+}
