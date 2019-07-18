@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex</title>
+    <style>
+        body {
+            background-color: #f5f5d5;
+            display: flex;
+            
+        }
+
+        #left,#right {
+            background-color: #f5f2f0;
+            border: 2px solid #e0dfcc;
+            flex: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="left">
+        <ol>
+            <li>flex-direction
+                <ul>
+                    <li>row</li>
+                    <li>row-reverse</li>
+                    <li>column</li>
+                    <li>column-reverse</li>
+                </ul>
+            </li>
+            <li>flex-wrap
+                <ul>
+                    <li>nowrap</li>
+                    <li>wrap</li>
+                    <li>wrap-reverse</li>
+                </ul>
+            </li>
+            <li>flex-flow
+                <ul>
+                    <li>row nowrap</li>
+                </ul>
+            </li>
+            <li>justify-content
+                <ul>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>space-between</li>
+                    <li>space-around</li>
+                </ul>
+            </li>
+            <li>align-items
+                <ul>
+                    <li>stretch</li>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>baseline</li>
+                </ul>
+            </li>
+            <li>align-content
+                <ul>
+                    <li>stretch</li>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>space-between</li>
+                    <li>space-around</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div id="right">
+        <ul>
+            <li>order
+                <ol>
+                    <li>0</li>
+                </ol>
+            </li>
+            <li>flex-grow
+                <ol>
+                    <li>0</li>
+                </ol>
+            </li>
+            <li>flex-shrink
+                <ol>
+                    <li>1</li>
+                </ol>
+            </li>
+            <li>flex-basis
+                <ol>
+                    <li>auto</li>
+                </ol>
+            </li>
+            <li>flex
+                <ol>
+                    <li>0 1 auto</li>
+                    <li>auto(1 1 auto)</li>
+                    <li>none(0 0 auto)</li>
+                </ol>
+            </li>
+            <li>align-self
+                <ol>
+                    <li>auto</li>
+                    <li>stretch</li>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>baseline</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
